@@ -1,0 +1,53 @@
+
+/*body*/
+
+.dive{
+    text-align: center;
+    font-size: xx-large;
+    color: #ea786f;
+}
+
+form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Form{
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    label{
+        display: block;
+
+    }
+
+    input, textarea{
+        display: block;
+        width: 100%;
+
+    }
+}
+
+
+input {
+    background-color: #ea786f;
+    outline: none;
+}
+
+select {
+    width: 300px;
+    background-color: #b3d8b9;
+}
+
+input[type = text],
+input[type = email],
+input[type = password]{
+    width: 300px;
+}
+
+input[type = submit] {
+    background-color: #0e4f1f;
+    color: white;
+    border-radius: 7px;
+}
